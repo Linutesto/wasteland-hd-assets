@@ -7,6 +7,14 @@
       "url": "https://github.com/Linutesto/wasteland-hd-assets/releases/download/packs-v1/WastelandHD-World.zip",
       "size": 439986165,
       "sha256": "9508605f4faa3a4e3bb7510ecebf5ee43d082afd988bb509672934aaa164a010"
+    },
+    {
+      "name": "heads",
+      "file": "WastelandHD-Heads.zip",
+      "covers": "Talking heads: the dialogue portraits in HD (1,352 images). Needs app version 1.3 or later.",
+      "url": "https://github.com/Linutesto/wasteland-hd-assets/releases/download/packs-v1/WastelandHD-Heads.zip",
+      "size": 468081786,
+      "sha256": "0e3b601127c8344610a49e0e5728fc661b785fec169a02db0f9e9d073d8e91a1"
     }
   ]
 }
