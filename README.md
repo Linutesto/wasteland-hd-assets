@@ -7,37 +7,14 @@ home RTX 4090, with the
 [Wasteland HD tools](https://github.com/Linutesto/wasteland-hd-tools).
 It's all here, ready to use: **you don't need a graphics card**.
 
-## For players: install it with the installer or the app
+## For players
 
-You never copy this art by hand — the released app and the Windows
-installer do it for you. The step-by-step guides say exactly which button
-to press:
+The installer repository is the player guide and download entry point. It has the v1.4 APKs, Windows installers, installation guides and troubleshooting:
 
-- [Windows install guide (English)](https://github.com/Linutesto/wasteland-reborn-installer/blob/main/docs/INSTALL-WINDOWS.md)
-  — section 6, *HD art*, and every other step (PC, phone, AI, updates).
-- [Guide Windows (en français)](https://github.com/Linutesto/wasteland-reborn-installer/blob/main/docs/INSTALL-WINDOWS.fr.md)
-- [Troubleshooting (English)](https://github.com/Linutesto/wasteland-reborn-installer/blob/main/docs/TROUBLESHOOTING.md)
-  · [Dépannage (français)](https://github.com/Linutesto/wasteland-reborn-installer/blob/main/docs/TROUBLESHOOTING.fr.md)
+- [Wasteland Reborn — install and download](https://github.com/Linutesto/wasteland-reborn-installer#download)
+- [HD art setup guide](https://github.com/Linutesto/wasteland-reborn-installer/blob/main/docs/INSTALL-WINDOWS.md#6-hd-art-hd-edition-only)
 
-In short: install **Wasteland Reborn HD** (the installer or the
-`Wasteland-HD-arm64.apk` from the
-[releases](https://github.com/Linutesto/wasteland-reborn-installer/releases/latest)),
-and the app offers the packs itself — **Download** (*« Télécharger »*) or
-**Later** (*« Plus tard »*), with the exact size in MB shown first.
-
-### Manual copy (only if you are not using the app)
-
-1. Get the art: clone this repository, or download it as a zip.
-2. You still need your own Fallout 2, installed through Wasteland Reborn
-   (see the guides above — nothing here contains game files).
-3. Copy the `hd/` folder into:
-   - **PC:** `<game folder>/data/` (for the default install,
-     `%LOCALAPPDATA%\WastelandReborn\game\data\`), so you end up with
-     `data/hd/art/...`.
-   - **Phone (HD app):**
-     `Android/data/io.github.imbaner.fallout2ce.hd/files/profiles/<profile>/data/`.
-4. Restart the game (or the HD app): frames that exist in `hd/` are drawn
-   in HD, everything else stays original.
+The HD app offers the published packs. The world pack is 440 MB (9,422 images); heads are 468 MB (1,352 images). Together they download to about 910 MB and take about 2 GB unpacked with the game. Keep at least 3 GB free on the phone. Critter art is in production; its first pack is not published and no date is promised.
 
 ## packs.json, for players
 
@@ -89,7 +66,8 @@ game loads one when it exists and draws the original art otherwise.
 | Covered | Status |
 | --- | --- |
 | Floor and roof tiles, walls, scenery, items, misc: the whole game | done |
-| Critters (people and creatures) | not yet |
+| Talking heads | published in v1.4 |
+| Critters (people and creatures) | in production; first pack not published |
 
 Every frame was checked against the original art. Frames the model redrew
 in other colours (a red pistol turned brown, a dark floor turned into
