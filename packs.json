@@ -31,6 +31,14 @@
       "url": "https://github.com/Linutesto/wasteland-hd-assets/releases/download/packs-v1/WastelandHD-Critters-02.zip",
       "size": 164603401,
       "sha256": "45500cc8e71a1ba24b41a957e92c754627a8addc4e52358e82068addfaa2405b"
+    },
+    {
+      "name": "critters-03",
+      "file": "WastelandHD-Critters-03.zip",
+      "covers": "Characters part 3: 10,338 animation frames in HD. More parts follow.",
+      "url": "https://github.com/Linutesto/wasteland-hd-assets/releases/download/packs-v1/WastelandHD-Critters-03.zip",
+      "size": 127366138,
+      "sha256": "64321a7a5007598b03dc53a99f55cdfee83e8c3e57f5caca5b935a24a0624eca"
     }
   ]
 }
